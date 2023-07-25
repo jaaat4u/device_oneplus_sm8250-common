@@ -133,6 +133,7 @@ TARGET_KERNEL_SOURCE := kernel/oneplus/sm8250
 TARGET_KERNEL_CLANG_COMPILE := true
 TARGET_KERNEL_CONFIG := vendor/kona-perf_defconfig
 TARGET_KERNEL_CLANG_VERSION := r487747c
+TARGET_KERNEL_LLVM_BINUTILS := true
 TARGET_KERNEL_CLANG_PATH := $(shell pwd)/prebuilts/clang/host/linux-x86/clang-r487747c
 
 # Platform
